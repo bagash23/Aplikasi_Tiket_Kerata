@@ -2,8 +2,16 @@ def start():
     nama = input("Masukan nama anda: ")
     hp = input("Masukan nomor HP anda: ")
     ktp = int(input("Masukan NIK anda: "))
-    print("===== Pertanyaan Mengenai Vaksinasi =====")
-    vaksin()
+    umur = int(input("Masukan Umur Anda: "))
+
+    if umur > 18:
+        print("Selamat anda bisa melanjutkan: ", umur)
+        print("===== Pertanyaan Mengenai Vaksinasi =====")
+        vaksin()
+    elif umur > 18:
+        print("Anda masih dini", umur)
+        start()
+
 
 def vaksin():
     print("1. Apakah anda sudah vaksin?")
@@ -21,7 +29,7 @@ def lokasi():
 def dosis():
     print("3. Sudah berapa dosis yang anda terima?")
     dosis = input("Masukan jumlah vaksin yang sudah anda terima: ")
-    print("Kalau begitu, Selamat anda telah menerima " + dosis + "x vaksin")
+    print("Selamat anda telah menerima " + dosis + " x vaksin")
 
 # output
 print("========== Selamat Datang Di PT KAI Indonesia ==========")
