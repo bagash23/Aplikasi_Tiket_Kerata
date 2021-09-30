@@ -6,12 +6,11 @@ def start():
 
     if umur > 18:
         print("Selamat anda bisa melanjutkan: ", umur)
+        rekening = int(input("Masukan nomor rekenening anda: "))
         print("===== Pertanyaan Mengenai Vaksinasi =====")
         vaksin()
     elif umur > 18:
-        print("Anda masih dini", umur)
-        start()
-
+        print("Maaf anda masih dini")
 
 def vaksin():
     print("1. Apakah anda sudah vaksin?")
