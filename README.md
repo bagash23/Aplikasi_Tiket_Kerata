@@ -1,5 +1,5 @@
 # Aplikasi_Tiket_Kerata
-Aplikasi Tiket Kereta
+Tugas ini dikerjakaan oleh teman teman kelas 10.1A.04 untuk tugas Algoritma & Logika untuk tugas akhir semester 1
 
 # Anggota Terdiri Dari 8 Orang
 # Pengerjaan Register : 
