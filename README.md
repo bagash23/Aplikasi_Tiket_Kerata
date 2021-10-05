@@ -10,4 +10,4 @@ Tugas ini dikerjakaan oleh teman teman kelas 10.1A.04 untuk tugas Algoritma & Lo
 # Pengerjaan Pemilihan Tiket :
 1. Mauladafa Fiscal Wibowo ( 10210006 ) - Sudah Selesai
 2. Rhesa Yudhira Putra ( 10210086 ) - Sudah Selesai
-3. Arif Rashad (  ) - Sudah Selesai
+3. Arif Rashad ( 10210141 ) - Sudah Selesai
