@@ -1,6 +1,6 @@
 <img src="http://mypy-lang.org/static/mypy_light.svg" alt="mypy logo" width="300px"/>
 
-Mypy: Optional Static Typing for Python
+Python
 =======================================
 
 [![Build Status](https://api.travis-ci.com/python/mypy.svg?branch=master)](https://travis-ci.com/python/mypy)
@@ -16,11 +16,14 @@ Run Python in program:
     $ py tiket.py
 
 
+# Aplikasi Tiket Kereta Api
+    Aplikasi ini dibuat untuk tugas akhir semester untuk matakuliah logika dan algoritma. Aplikasi ini dibuat bersama teman teman dengan jurusan rekayasa perangkat lunak yang dibuat dengan bahasa pemrograman full menggunakan python
+
 # Pengerjaan Register : 
-1. Bagas Haryadi ( 10210009 ) - Sudah Selesai
-2. Muhammad Jibril Abdullah Yusuf ( 10210029 ) - Sudah Selesai
+- Bagas Haryadi ( 10210009 )
+- Muhammad Jibril Abdullah Yusuf ( 10210029 )
 
 # Pengerjaan Pemilihan Tiket :
-1. Mauladafa Fiscal Wibowo ( 10210006 ) - Sudah Selesai
-2. Rhesa Yudhira Putra ( 10210086 ) - Sudah Selesai
-3. Arif Rashad ( 10210141 ) - Sudah Selesai
+- Mauladafa Fiscal Wibowo ( 10210006 )
+- Rhesa Yudhira Putra ( 10210086 )
+- Arif Rashad ( 10210141 )
