@@ -1,24 +1,29 @@
 def start():
+    print("")
     nama = input("Masukan nama anda: ")
     hp = input("Masukan nomor HP anda: ")
     ktp = int(input("Masukan NIK anda: "))
     umur = int(input("Masukan Umur Anda: "))
 
     if umur > 18:
-        print("Selamat anda bisa melanjutkan: ", umur)
+        print("Umur anda:",umur,"Silahkan lanjut")
         rekening = int(input("Masukan nomor rekenening anda: "))
+        print("")
         print("===== Pertanyaan Mengenai Vaksinasi =====")
         vaksin()
-    elif umur < 18:
+    else:
         print("Maaf anda masih dini")
+        start()
 
 def vaksin():
+    print("")
     print("1. Apakah anda sudah vaksin?")
     vaksin = input("Masukan pilihan anda (y/n): ")
     if vaksin == "y":
         lokasi()
     elif vaksin == "n":
         print("Maaf anda tidak dapat melanjutkan")
+        start()
 
 def lokasi():
     print("2. Dimana lokasi anda vaksin?")
@@ -31,6 +36,7 @@ def dosis():
     print("Selamat anda telah menerima " + dosis + " x vaksin")
 
 # output
+print("")
 print("========== Selamat Datang Di PT KAI Indonesia ==========")
 start()
 
@@ -63,11 +69,10 @@ def ky(): # ky = Kelender Yogyakarta
     print ("[3.] Sabtu Jam 09.00")
 
 def menu() :
-    print("\n===============================")
-    print("Selamat Datang Di Aplikasi Kereta Cepat")
-    print("=======================================")
+    print("")
+    print("=============================")
     print("Silahkan Untuk Memilih Tujuan")
-    print("============================")
+    print("=============================")
         
 
 menu()
