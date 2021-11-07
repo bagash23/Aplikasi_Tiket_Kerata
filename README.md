@@ -27,3 +27,6 @@ Run Python in program:
 - Mauladafa Fiscal Wibowo ( 10210006 )
 - Rhesa Yudhira Putra ( 10210086 )
 - Arif Rashad ( 10210141 )
+
+# Pembayaran Tiket :
+- Muhamad Fajar Assidiq ( 10210025 )
