@@ -4,6 +4,7 @@ def start():
     global hp
     global ktp
     global umur
+    global rekening
     nama = input("Masukan nama anda: ")
     hp = input("Masukan nomor HP anda: ")
     ktp = int(input("Masukan NIK anda: "))
@@ -20,13 +21,14 @@ def start():
         start()
 Harga = []
 def vaksin():
+    global vaksin
     print("")
     print("1. Apakah anda sudah vaksin?")
-    vaksin = input("Masukan pilihan anda (y/n): ")
-    if vaksin == "y":
+    vaksin = input("Masukan pilihan anda (sudah/tiak): ")
+    if vaksin == "sudah":
         lokasi()
 
-    elif vaksin == "n":
+    elif vaksin == "tidak":
         print("Maaf anda tidak dapat melanjutkan")
         start()
 
@@ -37,7 +39,6 @@ def lokasi():
     dosis()
 
 def dosis():
-    
     print("3. Sudah berapa dosis yang anda terima?")
     dosis = input("Masukan jumlah vaksin yang sudah anda terima: ")
     print("Selamat anda telah menerima " + dosis + " x vaksin")
@@ -50,14 +51,12 @@ start()
 
 # Menyimpan isi tujuan
 def tujuan():
-    
     print ("[1.] Jatinegara - Bogor")
     print ("[2.] Keranji - Gambir")
     print ("[3.] Kelender - Yogyakarta")
 
 # Menyimpan jadwal dari tujuan jatinegara - bogor
 def jb(): # kmj = Jatinegara Bogor
-    
     print ("[1.] Senin Jam 14.00")
     print ("[2.] Senin Jam 15.00")
     print ("[3.] Selasa Jam 14.00")
@@ -67,19 +66,16 @@ def jb(): # kmj = Jatinegara Bogor
 
 # Menyimpan jadwal dari tujuan keranji - gambir
 def kg(): # kg = Keranji Gambir
-    
     print ("[1.] Kamis Jam 08.30")
     print ("[2.] Jumat Jam 08.00")
 
 # Menyimpan jadwal dari tujuan kelender - yogyakarta
 def ky(): # ky = Kelender Yogyakarta
-    
     print ("[1.] Sabtu Jam 07.00")
     print ("[2.] Sabtu Jam 08.00")
     print ("[3.] Sabtu Jam 09.00")
 
 def menu() :
-    
     print("")
     print("=============================")
     print("Silahkan Untuk Memilih Tujuan")
@@ -171,13 +167,15 @@ print ("Nama Pembeli                  :",nama)
 print ("Nomor Hp                      :",hp)
 print ("Nomor Nik                     :",ktp)
 print ("Umur Pembeli                  :",umur)
+print ("Nomor Rekening                :",rekening)
+print ("Vaksin                        :",vaksin)
 print ("Lokasi Vaksin                 :",lokasi)
 print ("Harga Tiket                   :", Harga)
 print ("Jumlah Tiket Dibeli           :", Jumlah)
 print ("Potongan Harga                :", Potongan)
 print ("Total Harga                   :", Total)
 print ("Pajak 10%                     :", Pajak)
-print ("Masukan Jumlah Bayar          :", Jumlah_Bayar)
+print ("Jumlah Bayar                  :", Jumlah_Bayar)
 uang = int(input("Masukan Jumlah Uang :"))
 Kembalian = uang-Jumlah_Bayar
 print ("Kembalian Uang Anda           :", Kembalian)
