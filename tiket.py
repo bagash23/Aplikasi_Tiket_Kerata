@@ -1,5 +1,9 @@
 def start():
     print("")
+    global nama
+    global hp
+    global ktp
+    global umur
     nama = input("Masukan nama anda: ")
     hp = input("Masukan nomor HP anda: ")
     ktp = int(input("Masukan NIK anda: "))
@@ -27,7 +31,7 @@ def vaksin():
         start()
 
 def lokasi():
-    
+    global lokasi
     print("2. Dimana lokasi anda vaksin?")
     lokasi = input("Masukan lokasi anda vaksin: ")
     dosis()
@@ -163,11 +167,11 @@ Jumlah_Bayar = Total+Pajak
 print ("")
 print ("========Rincian Pembayaran Tiket========")
 print ("")
-print ("Nama Pembeli                  :")
-print ("Nomor Hp                      :")
-print ("Nomor Nik                     :")
-print ("Umur Pembeli                  :")
-print ("Lokasi Vaksin                 :")
+print ("Nama Pembeli                  :",nama)
+print ("Nomor Hp                      :",hp)
+print ("Nomor Nik                     :",ktp)
+print ("Umur Pembeli                  :",umur)
+print ("Lokasi Vaksin                 :",lokasi)
 print ("Harga Tiket                   :", Harga)
 print ("Jumlah Tiket Dibeli           :", Jumlah)
 print ("Potongan Harga                :", Potongan)
