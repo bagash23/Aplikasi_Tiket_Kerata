@@ -177,7 +177,7 @@ print ("Jumlah Tiket Dibeli           :", Jumlah)
 print ("Potongan Harga                :", Potongan)
 print ("Total Harga                   :", Total)
 print ("Pajak 10%                     :", Pajak)
-print ("Masukan Jumlah Bayar          :", Jumlah_Bayar)
+print ("Jumlah Bayar          :", Jumlah_Bayar)
 uang = int(input("Masukan Jumlah Uang :"))
 Kembalian = uang-Jumlah_Bayar
 print ("Kembalian Uang Anda           :", Kembalian)
