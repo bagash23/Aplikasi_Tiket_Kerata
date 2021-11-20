@@ -18,15 +18,3 @@ Run Python in program:
 
 # Aplikasi Tiket Kereta Api
     Aplikasi ini dibuat untuk tugas akhir semester untuk matakuliah logika dan algoritma. Aplikasi ini dibuat bersama teman teman dengan jurusan rekayasa perangkat lunak yang dibuat dengan bahasa pemrograman full menggunakan python
-
-# Pengerjaan Register : 
-- Bagas Haryadi ( 10210009 )
-- Muhammad Jibril Abdullah Yusuf ( 10210029 )
-
-# Pengerjaan Pemilihan Tiket :
-- Mauladafa Fiscal Wibowo ( 10210006 )
-- Rhesa Yudhira Putra ( 10210086 )
-- Arif Rashad ( 10210141 )
-
-# Pembayaran Tiket :
-- Muhamad Fajar Assidiq ( 10210025 )
