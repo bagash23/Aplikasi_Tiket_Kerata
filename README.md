@@ -14,7 +14,3 @@ Quick start
 Run Python in program:
 
     $ py tiket.py
-
-
-# Aplikasi Tiket Kereta Api
-    Aplikasi ini dibuat untuk tugas akhir semester untuk matakuliah logika dan algoritma. Aplikasi ini dibuat bersama teman teman dengan jurusan rekayasa perangkat lunak yang dibuat dengan bahasa pemrograman full menggunakan python
